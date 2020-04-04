@@ -79,6 +79,14 @@ body {
     text-align: center;
 }
 
+.small-screen-description {
+    color : rgb(255,253,208);
+    top:25%;
+    
+    position: absolute;
+    text-align: center;
+}
+
 .skill_row {
     font-size : 40px;
 }
@@ -92,7 +100,7 @@ body {
 
 .landing-iam {
     font-size : 40px;
-    font-family : 'Amatic SC', cursive;
+    //font-family : 'Amatic SC', cursive;
 }
 
 #aboutme_nav {
