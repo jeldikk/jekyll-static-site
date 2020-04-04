@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale-1,shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <!-- styling and animation assists include -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/aos.css">
+    <link rel="stylesheet" href="/assets/css/font-stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- Google fonts linking -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      {% include navigation.html %}
+
+      {{ content }}
+
+      <section id="footer" class="py-4">
+          {% include footer.html %}
+      </section>
+      <script src="/assets/scripts/jquery-3.4.1.js" charset="utf-8"></script>
+      <script src="/assets/scripts/popper.min.js" charset="utf-8"></script>
+      <script src="/assets/scripts/bootstrap.min.js" charset="utf-8"></script>
+      <script src="/assets/scripts/aos.js" charset="utf-8"></script>
+      <script src="/assets/scripts/main.js" charset="utf-8"></script>
+  </body>
+
+</html>
