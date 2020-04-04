@@ -3,12 +3,14 @@
 // });
 $(function(){
     $(".header").height($(window).height());
+    $(".header").width($(window).width());
 
     $(window).on('resize',function(){
         //console.log("resize event invoked");
         //console.log(`New height ${$(window).height()}`);
         //console.log(`New width ${$(window).width()}`);
         $(".header").height($(window).height());
+        $(".heade").width($$(window).width());
     });
 
     AOS.init();

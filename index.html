@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -20,7 +22,13 @@
             I am J. Kamal Kumar, people call me 'kamal' <br>
             Welcome to my profile page <br>
             This page is simple and doesn't have much design. <br>
-            If you think I have a bad design skills, then <a href="/home.html">click here</a> <br>
+            If you think I have a bad design skills, then
+            {% if site.data.configuration.maintenance %}
+                <a href="/error.html">
+            {% else %}
+                <a href="/home.html">
+            {% endif %}
+                click here</a> <br>
             <br>
             Thanking you, <br>
             visit Once again <br>
@@ -31,6 +39,7 @@
             J. Kamal Kumar <br>
             mail : jeldi.kamal2011@gmail.com <br>
             github : jeldikk <br>
+
         </div>
 
 

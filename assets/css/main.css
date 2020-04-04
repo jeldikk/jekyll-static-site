@@ -81,8 +81,8 @@ body {
 
 .small-screen-description {
     color : rgb(255,253,208);
-    top:25%;
-    
+    top:15%;
+
     position: absolute;
     text-align: center;
 }

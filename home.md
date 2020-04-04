@@ -3,6 +3,8 @@ layout : base_layout
 title : Home - jeldikk
 ---
 
+{% include navigation.html %}
+
 <section id="landingpage">
     {% include landingpage.html %}
 </section>
@@ -12,5 +14,9 @@ title : Home - jeldikk
 </section>
 
 <section id="tutorpage">
-    
+
+</section>
+
+<section id="footer" class="py-4">
+    {% include footer.html %}
 </section>
