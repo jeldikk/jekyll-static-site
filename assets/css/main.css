@@ -1,0 +1,144 @@
+/*
+#ED1C24 - navbar background
+#831618 - navlink background
+#FFFFFF -  text
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 75px !important;
+}
+
+.navbar {
+    background-color: rgba(142, 5, 10, 0.78);
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    cursor : pointer;
+    font-size : 2rem;
+    font-weight: bolder;
+}
+/* .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+
+.nav-link {
+    color : #FFFFFF;
+    cursor : pointer;
+    //font-weight: bolder;
+    font-size : 1.5rem;
+    //margin-left: 3em !important;
+}
+
+.nav-link:hover {
+    color : #FFFFFF;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    //background-color: #831618;
+    //font-weight: bold;
+    cursor : pointer;
+}
+
+.nav-item {
+    margin-left: 2rem !important;
+}
+/* .nav-link {
+    margin-right: 3em;
+} */
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.header {
+    background-image: url("/assets/images/header_background.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(0,0,0,0.4);
+}
+
+.description {
+    color: rgb(255,253,208);
+    left: 5%;
+    top : 25%;
+    transfrom: translate(-50%,-55%);
+    position: absolute;
+    text-align: center;
+}
+
+.skill_row {
+    font-size : 40px;
+}
+
+
+.landing-hr{
+    border-width: medium;
+    width: 75%;
+    border-color: rgb(255,253,208);
+}
+
+.landing-iam {
+    font-size : 40px;
+    font-family : 'Amatic SC', cursive;
+}
+
+#aboutme_nav {
+    justify-content: center;
+}
+
+#aboutme_nav > .nav-item {
+    font-size : 25px;
+    //border-bottom: 3px solid white;
+}
+
+#aboutme_nav > .nav-item:hover {
+    cursor: default;
+    border-bottom: 3px solid rgb(6, 115, 0);
+}
+
+.aboutme_active_nav {
+    border-bottom : 3px solid rgba(142, 5, 10, 0.78) !important;
+}
+
+.skill_ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.work_p {
+
+    padding :180px;
+}
+
+.border-thick-red{
+    border: 10px solid rgba(214, 38, 20, 0.86);
+}
+
+.border-thick-blue {
+    border: 10px solid rgba(90, 182, 233, 0.86);
+}
+
+.border-thick-black {
+    border : 10px solid rgba(26, 24, 24, 0.91);
+}
+#footer {
+    background-color: #222;
+    color : #ccc;
+}
+
+.footer-copyright{
+    color : #666;
+}
